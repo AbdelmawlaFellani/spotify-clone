@@ -1,0 +1,160 @@
+:root{
+  box-sizing: border-box;
+  background-color: #121212;
+  color: #b2b2b2;
+  font-size: 13px;
+  font-family: 'Ubuntu';
+  margin: 0px;
+  padding: 0px;
+}
+.App{
+  display:grid;
+  grid-template-columns: 15vw auto 15vw;
+  grid-template-rows: 82vh  18vh;
+  width: auto;
+  height: auto  ;
+}
+
+.Nav-left{
+
+  padding-top: 20px;
+  height: auto;
+  background-color: black;
+  min-width: 7vw;
+  max-width: 15vw;
+  width: auto;
+  resize: horizontal;
+  overflow: auto;
+ display: flex;
+ flex-direction: column;
+
+}
+.MenuComponent{
+  display: flex;
+  height: 1.1em;
+  padding: 15px;
+  align-items: center;
+
+}
+Link{
+  opacity:0.5;
+	display: block;
+  text-decoration:none;
+	padding:7px 0px;
+  color: white;
+}
+Link:hover{
+    opacity:1;
+}
+a{
+  opacity:0.5;
+	display: block;
+  text-decoration:none;
+	padding:7px 0px;
+  color: white;
+}
+a:hover{
+  opacity: 1;
+}
+.MenuComponent .Menu--img{
+  height: 1.4em;
+  margin: 10px;
+}
+.MenuComponent .Menu--title{
+  font-size: 1.2rem;
+  font-weight: 700;
+  width: fit-content;
+}
+.add-label{
+  padding: 20px 0px ;
+  
+}
+.MenuComponent :hover{
+  color: white;
+  opacity: 1;
+}
+  .Menu-container{
+  background-color: black;
+  position: relative;
+  height: 300px;
+  width: auto;
+  padding-top: 20px;
+  overflow-y: none;
+  border-bottom: 1px solid#5d3939 ;
+}
+.playlist-menu{
+  padding: 5px 20px;
+  font-weight: 700;
+  overflow-y: auto;
+}
+.Nav-right{
+  padding-top: 20px;
+  height: auto;
+  background-color: black;
+  min-width: 7vw;
+  max-width: 15vw;
+  width: auto; 
+  resize: horizontal;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+}
+.Nav-right--header{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.Nav-right--title{
+  font-weight: 700;
+  font-size: 1.2em;
+}
+.Nav-right---img{
+  height: 1.3em;
+}
+.CardFriend{  
+  display: flex;
+  flex-direction: row;
+  height:50px;
+  padding: 10px;
+  align-items: center;
+  gap: 0px;
+}
+.card--img{
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  margin: 0px 10px;
+}
+.card-infos{
+  font-size: 0.8rem;
+  width: 100%;
+}
+
+.status{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.card--icon{
+  height: 15px;
+}
+.card--song{
+  margin-top: 0px;
+  margin-bottom: 0px;
+
+}
+.card--name{
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+.friends-cards{
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}
+.footer{
+  background-color: black;
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
